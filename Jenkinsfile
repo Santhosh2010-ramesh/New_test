@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/santhosh2010'
+                git branch: 'main', url: 'https://github.com/Santhosh2010-ramesh/New_test'
             }
         }
         stage('Build Docker Image') {
