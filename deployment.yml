@@ -12,8 +12,8 @@ spec:
       labels:
         app: sample-app
     spec:
-      imagePullSecrets:
-      - name: my-dockerhub-secret  # Reference the secret for Docker authentication
+      #imagePullSecrets:
+      #- name: my-dockerhub-secret  # Reference the secret for Docker authentication
       containers:
       - name: sample-app
         image: barathkumar29/helloworld-python
