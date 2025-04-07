@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/santhosh2010/mock-test'
+                git branch: 'main', url: 'https://github.com/santhosh2010'
             }
         }
         stage('Build Docker Image') {
